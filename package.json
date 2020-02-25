@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test": "newman run tests/testsuite1.postman_collection.json"
+    "api-test": "newman run tests/testsuite1.postman_collection.json --reporters cli, junit --reporter-junit-export newman.xml"
   },
   "author": "Karthikeyan Mariappan",
  "dependencies": {
