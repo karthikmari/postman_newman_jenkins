@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test": "newman run C:\Users\kmariappan\postman_newman_jenkins\tests\testsuite1.postman_collection.json"
+    "api-test": "newman run tests/testsuite1.postman_collection.json"
   },
   "author": "Karthikeyan Mariappan",
  "dependencies": {
