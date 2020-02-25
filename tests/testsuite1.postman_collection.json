@@ -20,7 +20,7 @@
 							"pm.test(\"Status code name has string\", function () {",
 							"    pm.response.to.have.status(\"OK\");",
 							"});pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);",
 							"});"
 						],
 						"type": "text/javascript"
